@@ -1,0 +1,463 @@
+
+@media (min-width: 1200px){
+    .banner_area{
+        min-height: 400px;
+    }
+    
+    .nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+ }
+ .serv_box{
+
+	/* width: 80%; */
+	margin: 0 auto;
+	margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 930px;
+}
+.we_doc{
+	max-width: 81%;
+	margin: 0 auto;
+	margin-top: 6px;
+}
+.clnt_crs .nbs-flexisel-nav-right{
+
+    right: 435px;
+    top:143px !important;
+    background: url(../images/arrleft33.png) no-repeat;
+}
+.clnt_crs .nbs-flexisel-nav-left {
+    left: 440px;
+    top:143px !important;
+    background: url(../images/arrright33.png) no-repeat;
+}
+.footer_bg{
+
+	width: 78%;
+    margin: 0 auto;
+    padding-top: 8px;
+
+}
+
+}
+
+
+
+@media (max-width: 1199px){
+
+    .newyork_area{
+
+        left: 12px;
+        top: 10px;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    button.navbar-toggle {
+        display: block;
+        background: url(../images/menu_icon.png) no-repeat center top;
+    }
+    
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    
+    .main_menu .navbar-nav{
+        padding-left: 0;
+    }
+
+
+    .ny_box{
+        left: 0;
+        max-width: 280px;
+    }
+
+   
+
+  .green_layer{
+    width: 75%;
+    left: 25px;
+       
+        
+    }
+    .green_layer:hover{
+       
+    } 
+
+    .green_layer h2{
+        font-size: 25px;
+        padding-top: 55px;
+    }
+
+    .green_layer:before, .green_layer:after{
+
+        width: 100px;
+        height: 100px;
+    }
+    .green_layer button{
+        font-size: 14px;
+    }
+    ul.info{
+
+
+        padding-left: 60px;
+        width: auto;
+    }
+
+    .live h2{
+
+        font-size: 28px;
+    }
+    .testimonials{
+        background-repeat: repeat;
+    }
+    .footer{
+        background-repeat: repeat; 
+    }
+}
+
+@media (max-width: 991px){
+
+    .newyork_area{
+
+        width: 200px;
+        left: 12px;
+        top: 10px;
+
+    }
+    .newyork_area span{
+        font-size: 25px !important;
+        line-height: 25px;
+    }
+    .newyork_area span.n5{
+        font-size: 12px !important;
+    }
+    .newyork_area a{
+        font-size: 12px;
+    }
+
+    .main_menu .navbar-header{
+        padding-left: 0;
+    }
+
+    .navbar-brand>img{
+        max-width: 100px;
+    }
+    .logo2{
+        display: none;
+    }
+    /* .navbar-nav.sm-collapsible a.has-submenu{
+        background: url(../images/plus.png) no-repeat right top;
+    }
+    .navbar-nav.sm-collapsible a.has-submenu:hover{
+        background: url(../images/plus.png) no-repeat right top;
+    } */
+    .navbar-nav.sm-collapsible .caret{
+        display: block;
+        visibility: visible;
+    }
+
+    .serv_box ul{
+        margin-bottom: 30px;
+    }
+    .serv_box ul li{
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    .serv_box ul li:nth-child(3n+1) {
+        margin: 0 auto;
+        margin-top: 70px;
+       
+    }
+    .serv_box ul li div.icon{
+        left: 50%;
+        margin-left: -73px;
+    }
+    .live_crousel .nbs-flexisel-item div span{
+        font-size: 12px;
+    }
+
+    
+  .green_layer{
+
+       left: 15px;
+       
+        
+    }
+}
+@media (max-width: 990px) and (min-width: 767px){
+    .ny_box{
+
+        max-width: 180px;
+    }
+    /* .green_layer{
+
+
+        width: 80%;
+        height: 90%;
+        left: 25px;
+    }
+    .green_layer:hover {
+        background: url(../images/green_hover.png) no-repeat center 20px;
+        background-size: 190px 190px;
+        
+    } */
+
+    .green_layer h2{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .round_1{
+        width: 120px;
+        height: 120px;
+        line-height: 143px;
+    }
+    .live_crousel .nbs-flexisel-nav-left{
+
+
+        left: -9px;
+    }
+    .live_crousel .nbs-flexisel-nav-right{
+
+
+        right: -11px;
+    }
+
+
+    
+}
+
+@media (max-width: 767px){
+    .ny_box{
+        max-width: 180px;
+        top: 20px;
+    
+    }
+    /* .green_layer:hover {
+        background: url(../images/green_hover.png) no-repeat center 30px;
+        background-size: 330px 330px;
+    } */
+    
+    .help_btn button{
+
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .cc1{
+        float: none;
+    }
+    .cc2{
+        float: none;
+    }
+
+    .live_crousel .nbs-flexisel-nav-left{
+
+
+        left: -9px;
+    }
+    .live_crousel .nbs-flexisel-nav-right{
+
+
+        right: -11px;
+    }
+    .navbar-nav.sm-collapsible .caret{
+        margin-top: -20px;
+    }
+
+    .insurance h2{
+        font-size: 20px;
+    }
+    .services h2{
+        font-size: 20px;
+    }
+    .meet h2{
+        font-size: 20px;    
+    }
+    .welcome h3{
+        font-size: 18px;
+    }
+    .welcome p{
+        font-size: 15px;
+    }
+    .cardiac .nopadding{
+        margin-bottom: 20px;
+    }
+    .green_layer{
+
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 360px;
+         left: 50%;
+        margin-left: -178px;
+        top: 50%;
+        margin-top: -170px;
+         
+     }
+     .green_layer h2 {
+        font-size: 40px;
+    padding-top: 100px;
+}
+    .green_layer button{
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .insurance ul li{
+        width: 30%;
+    }
+    .insurance ul li:nth-child(5n+1){
+
+        margin-left: 1.25%;
+        clear: none;
+    }
+    .testimonials h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .testimonials blockquote{
+        padding-top: 30px;
+    }
+    .footer_bg{
+        text-align: center;
+    }
+}
+@media (max-width: 535px){
+
+    .newyork_area{
+
+        width: 40%;
+        left: 12px;
+        top: 15px;
+        padding: 10px;
+        
+            }
+            .newyork_area span{
+                font-size: 15px !important;
+                line-height: 15px;
+            }
+            .newyork_area span.n5{
+                font-size: 9px !important;
+            }
+            .newyork_area a{
+                font-size: 9px;
+            }
+    
+    .ny_box{
+        max-width: 130px;
+        left: 0px;
+        top: 20px;
+    }
+    .banner_area{
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+
+    .welcome h2{
+        font-size: 20px;
+    }
+
+
+    .green_layer{
+
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 280px;
+         left: 50%;
+        margin-left: -140px;
+        top: 50%;
+        margin-top: -180px;
+         
+     }
+     .green_layer h2 {
+        font-size: 40px;
+    padding-top: 100px;
+}
+
+.insurance ul li{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    ul.info{
+
+        padding-left: 0;
+    }
+    
+    .live h2{
+
+        font-size: 22px;
+    }
+    .serv_box ul li{
+        width: 80%;
+    }
+    
+    
+}
+
+
+@media (max-width: 435px){
+
+    
+    /* .green_layer:hover {
+        background: url(../images/green_hover.png) no-repeat center 30px;
+        background-size: 250px 250px;
+    } */
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
